@@ -1,8 +1,7 @@
 # linux-server
 
 ## Description
-   This is the final project for Udacity's Full Stack Web Developer Nanodegree.This is about linux server configuration
-   
+   This is the final project for Udacity's Full Stack Web Developer Nanodegree.
 ### Server Details:
 
 Server IP Address: 13.127.101.42
@@ -11,12 +10,12 @@ Hosted site Url : http://13.127.101.42.xip.io/
 
 ### How to connect as grader:
 
-  save the private key provided in your local machine and run the following command
+  save the private key in your local machine and run the following command in command prompt
   ```
   ssh -i path/to/privatekey -p 2200 grader@13.127.101.42
     
   ```
-  and the password for grader : srinu1211
+  the password for grader : srinu1211
   
 ### Id_rsa key:
 ```
@@ -58,8 +57,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpzL4pluVBFbeGrol0EKyX6JciO7nOnBck0BxBLHsQ
     there is no passpharse key
     press enter button when it asks
 
-## Configuring Linux Server
-
 ### Updating all packages:
 ```
 sudo apt-get update
@@ -81,7 +78,7 @@ sudo apt-get upgrade
   ```
   This will grant sudo permission to grader.
 
-  ### Creating a ssh key pair for grader:
+### Creating a ssh key pair for grader:
 
    On your local machine in terminal/command prompt type:
    ```
@@ -135,7 +132,7 @@ sudo apt-get upgrade
    
    >Before Logging using ssh add custom TCP port 2200 under lightsaail firewall in networking tab in lightsail instance console:  
    
-   Now Login using command in local terminal:
+   Now Login using command in command prompt:
    ```
    ssh -i .ssh/id_rsa -p 2200 grader@youripaddress
    ```
@@ -156,7 +153,7 @@ sudo apt-get upgrade
   sudo ufw allow 123/udp
   sudo ufw enable
   ```
-  This will allow all required ports and enables the ufw
+  This will allow all required ports the ufw and enables the ufw
   ```
   sudo ufw status
   ```
