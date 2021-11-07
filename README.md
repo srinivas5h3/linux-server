@@ -15,12 +15,12 @@ Hosted site Url : http://13.127.101.42.xip.io/
   ssh -i path/to/privatekey -p 2200 grader@13.127.101.42
     
   ```
-  the password for grader : srinu1211
+  the password for grader : *****
   
 ### Id_rsa key:
 
 ### Id_rsa.pub key:
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpzL4pluVBFbeGrol0EKyX6JciO7nOnBck0BxBLHsQXURyFbZYNRWSBS+rbWwnyaS2x2wSLy5hRPL1MFCZcbcQWR66pndac9PaAMOVViZzq3O1QFEkZe/i9OqrIxID5Rw8iadFWLiKWlbWzVov3LJWZw2zH3UN29y6InpL25jVgmxifL+1IhbhfYRr/tme3GzN+DIPFE7sDwM2IkiSFq3m+3MF16mKn48bFJVEkP3xWXxOmDW7CEYgyISPTnhm2LPW1WskZ0BESo2u+yz1yxq87rm5T5ZA3kmbwWf0NnO/QvsNT4/Jsch7sQ+r/lC3BgvuROE9aDxgJ98+5I8VJXbF lenovo@srinivas
+ssh-rsa ************
 
 ## passpharse key
     there is no passpharse key
